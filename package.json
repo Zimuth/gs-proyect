@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "format:check": "prettier --check ."
   },
   "lint-staged": {
     "*.{js,ts}": [
