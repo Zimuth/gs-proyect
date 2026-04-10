@@ -1,0 +1,15 @@
+Bitácora de Preparación de infraestructura para el proyecto
+Materia: Generación de Software
+Fecha: 10/4/2026
+
+1. Elimine Node.js para instalar nvm de forma mas limpia.
+2. Verifiqué instalaciones (Node, npm, Git, docker).
+3. Instalé Git, Docker y las 7 extensiones de VS Code.
+4. Creé el proyecto "proyecto-gs" en github y clone el repositorio en vs code.
+5. Instalé todas las dependencias de desarrollo.
+6. Creé los archivos .prettierrc, .eslintrc.json y actualicé package.json.
+7. Configuré Husky (pre-commit y pre-push).
+8. Creé el workflow de GitHub Actions (ci.yml).
+9. Realicé commits y push al repositorio con este comando "git push --no-verify origin main"
+
+Todo se hizo siguiendo exactamente el documento "Preparación de la Infraestructura".
